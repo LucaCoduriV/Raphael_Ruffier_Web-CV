@@ -2,13 +2,17 @@
   font-family: Lato-light;
   src: url(fonts/Lato-Light.ttf);
 }
+@font-face {
+  font-family: Lato-Regular;
+  src: url(fonts/Lato-Regular.ttf);
+}
 *{
-  font-family: Lato-light;
   margin: 0px;
   padding: 0px;
 }
 /*Header*/
 header{
+  font-family: Lato-light;
   background-color: black;
   color: white;
   display: flex;
@@ -17,13 +21,13 @@ header{
   vertical-align: middle;
   height: 140px;
 }
-#div-logo{
+.div-logo{
   height: 60px;
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 20px;
 }
-#div-logo > img{
+.div-logo img{
   height: 100%;
   width: auto;
 }
@@ -38,6 +42,10 @@ padding: 10px;
 margin-right: 10px;
 margin-left: 10px;
 }
+#list-nav > li > a{
+  color: white;
+  text-decoration: none;
+}
 #list-nav > .vl {
   border-left: 1px solid white;
   height: 20px;
@@ -49,13 +57,54 @@ margin-left: 10px;
   margin-left: auto;
   margin-right: auto;
   width: 1054px;
+  font-size: 18px;
+  font-family: sans-serif;
 }
 #body-container > img {
-  width: 400px;
-  display: inline;
+  height: 400px;
+  float: left;
+  margin-right: 40px;
 }
 #article-presentation{
-  display: inline;
   width: 300px;
-  background-color: red;
+  display: inline;
+}
+#body-container p{
+  margin-bottom: 10px;
+}
+/*footer*/
+footer{
+  float: none;
+  background-color: grey;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+#social-media{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.logo-media{
+  height: 50px;
+  margin: 20px;
+}
+#footer2{
+  height: 100px;
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+#credit a{
+  color: white;
+  font-style: normal;
+}
+@media screen and (max-width: 640px){
+  *{
+    color: red;
+  }
+
 }

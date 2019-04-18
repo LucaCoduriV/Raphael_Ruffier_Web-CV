@@ -37,26 +37,27 @@ nav{
 }
 #list-nav > li{
 font-size: 17px;
+letter-spacing: 2px;
 display: inline;
 padding: 10px;
-margin-right: 10px;
-margin-left: 10px;
+margin-right: 5px;
+margin-left: 5px;
 }
 #list-nav > li > a{
   color: white;
   text-decoration: none;
-}
-#list-nav > .vl {
-  border-left: 1px solid white;
-  height: 20px;
   display: inline;
+}
+#hamburger{
+  display: none;
 }
 /*Corps*/
 #body-container{
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
-  width: 1054px;
+  max-width: 1054px;
+  min-height: 550px;
   font-size: 18px;
   font-family: sans-serif;
 }
@@ -66,8 +67,9 @@ margin-left: 10px;
   margin-right: 40px;
 }
 #article-presentation{
-  width: 300px;
+  max-width: 300px;
   display: inline;
+  text-align: justify;
 }
 #body-container p{
   margin-bottom: 10px;
@@ -76,9 +78,10 @@ margin-left: 10px;
 footer{
   float: none;
   background-color: grey;
-  position: absolute;
+  position: static;
   bottom: 0px;
   width: 100%;
+  margin-top: auto;
 }
 #social-media{
   display: flex;
@@ -103,8 +106,21 @@ footer{
   font-style: normal;
 }
 @media screen and (max-width: 640px){
-  *{
-    color: red;
-  }
-
+    #body-container > img{
+      float: none;
+    }
+    #body-container{
+      text-align: center;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    #hamburger{
+      display: block;
+      background-color: black;
+    }
+    nav{
+      margin-top: auto;
+      margin-bottom: auto;
+      display: none;
+    }
 }

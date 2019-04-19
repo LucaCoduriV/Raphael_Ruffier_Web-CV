@@ -21,7 +21,7 @@
   </article>
 </div>
 <?php include("pages\\footer.php"); ?>
-<script type="text/javascript" src="\RaphRuffier\script\jquery\jquery-3.4.0.slim.min.js"></script>
-<script type="text/javascript" src="\RaphRuffier\script\script.js"></script>
+<script type="text/javascript" src="/RaphRuffier/script/jquery-3.4.0.slim.min.js"></script>
+<script type="text/javascript" src="/RaphRuffier/script/script.js"></script>
   </body>
 </html>

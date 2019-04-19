@@ -1,7 +1,7 @@
 #article-photos{
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-around;
 }
 .photos{
   height: 300px;

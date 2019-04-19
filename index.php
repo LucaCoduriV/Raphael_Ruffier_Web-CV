@@ -9,6 +9,10 @@
   <body>
 <?php include("pages\header.php"); ?>
 <?php include("pages\sidebar.php"); ?>
+<div class="" id="underHeader">
+  <p id="welcome">Welcome to my website</p>
+  <p id="Name">Raphael Ruffier</p>
+</div>
 <div id="body-container">
   <img src="\RaphRuffier\img\\RaphaelRuffier.jpg" alt="Raphael Ruffier">
   <article id="article-presentation">

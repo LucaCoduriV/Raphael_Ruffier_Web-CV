@@ -3,6 +3,7 @@
     <a href="#"><img class="logo-media" id="logo-facebook" src="\RaphRuffier\\img\facebook-logo.png" alt="Facebook"></a>
     <a href="#"><img class="logo-media" id="logo-Instagram" src="\RaphRuffier\img\instagram.png" alt="Instagram"></a>
     <a href="#"><img class="logo-media" id="logo-Vimeo" src="\RaphRuffier\img\vimeo-square-logo.png" alt="Vimeo"></a>
+    <a href="#"><img class="logo-media" id="logo-Mail" src="\RaphRuffier\img\mail.png" alt="Mail"></a>
   </div>
   <div id="footer2">
     <div class="div-logo"><img src="\RaphRuffier\img\\LogoR_blanc.png" alt="logo"></div>

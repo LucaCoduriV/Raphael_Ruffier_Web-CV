@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="\RaphRuffier\css\style.css">
   </head>
   <body>
-<?php include("pages\header.php"); ?>
-<?php include("pages\sidebar.php"); ?>
+<?php include("header.php"); ?>
+<?php include("sidebar.php"); ?>
 <div class="" id="underHeader">
   <p id="welcome">Welcome to my website</p>
   <p id="Name">Raphael Ruffier</p>
@@ -24,7 +24,7 @@
     <p>Raphael</p>
   </article>
 </div>
-<?php include("pages\\footer.php"); ?>
+<?php include("footer.php"); ?>
 <script type="text/javascript" src="/RaphRuffier/script/jquery-3.4.0.slim.min.js"></script>
 <script type="text/javascript" src="/RaphRuffier/script/script.js"></script>
   </body>

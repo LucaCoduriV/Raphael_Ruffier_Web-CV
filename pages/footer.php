@@ -1,10 +1,10 @@
 <footer>
   <div id="footer3">
     <div id="social-media">
-      <a href="#"><div class="logo-media" id="logo-facebook"><?php echo file_get_contents("img\\facebook.svg"); ?></div></a>
-      <a href="#"><div class="logo-media" id="logo-Instagram"><?php echo file_get_contents("img\instagram.svg"); ?></div></a>
-      <a href="#"><div class="logo-media" id="logo-Vimeo"><?php echo file_get_contents("img/vimeo.svg"); ?></div></a>
-      <a href="#"><div class="logo-media" id="logo-Mail"><?php echo file_get_contents("img\\email.svg"); ?></div></a>
+      <a href="#"><div class="logo-media" id="logo-facebook"><?php echo file_get_contents("/RaphRuffier/img/facebook.svg"); ?></div></a>
+      <a href="#"><div class="logo-media" id="logo-Instagram"><?php echo file_get_contents("/RaphRuffier/img/instagram.svg"); ?></div></a>
+      <a href="#"><div class="logo-media" id="logo-Vimeo"><?php echo file_get_contents("/RaphRuffier/img/vimeo.svg"); ?></div></a>
+      <a href="#"><div class="logo-media" id="logo-Mail"><?php echo file_get_contents("/RaphRuffier/img/email.svg"); ?></div></a>
     </div>
     <p id="copyright">© 2014 Raphael Ruffier Films All Rights Reserved</p>
   </div>
